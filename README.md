@@ -1,4 +1,3 @@
-Certainly! Here is a sample **README.md** file tailored to your provided `pom.xml` for a test automation project using Maven, Selenium, Cucumber, and TestNG:
 
 # test-automation
 
