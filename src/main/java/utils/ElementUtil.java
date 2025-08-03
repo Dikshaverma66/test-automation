@@ -11,6 +11,7 @@ import static driver.DriverManager.getDriver;
 
 public class ElementUtil {
 
+    //To open url
     public void openURL(){
         if(getDriver()!=null){
             getDriver().get(PropertyReader.readKey("url"));
