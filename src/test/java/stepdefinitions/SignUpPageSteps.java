@@ -65,12 +65,6 @@ public class SignUpPageSteps {
         Assert.assertEquals(pageTitle, title);
     }
 
-//    @When("the user click the Create an Account button")
-//    public void UserClickTheCreateAnAccountButton() {
-//
-//        signUp.clickCreateAnAccountButton();
-//    }
-
     @Then("the user should see an {string} for invalid email format")
     public void theUserShouldSeeAnForInvalidEmailFormat(String msg) {
         String invalidEmailErrorMsg = signUp.displayInvalidEmailAddressMsg();

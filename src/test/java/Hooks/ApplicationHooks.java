@@ -7,7 +7,7 @@ import io.cucumber.java.Before;
 
 public class ApplicationHooks {
 
-    //private WebDriver driver;
+
 
     //Start the WebDriver
     @Before
